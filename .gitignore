@@ -1,0 +1,9 @@
+# Terraform working files and state (the state contains the private key, never commit it)
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+crash.log
+
+# The generated SSH private key
+*.pem
